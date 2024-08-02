@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2024-06-05T03:54:54.108Z"
+        cq:lastModifiedBy="deepika.kawatra@destpet.com"
+        cq:lastReplicated="{Date}2024-06-24T10:56:24.242Z"
+        cq:lastReplicated_publish="{Date}2024-06-24T10:56:24.242Z"
+        cq:lastReplicated_scene7="{Date}2024-06-05T03:55:21.714Z"
+        cq:lastReplicatedBy="deepika.kawatra@destpet.com"
+        cq:lastReplicatedBy_publish="deepika.kawatra@destpet.com"
+        cq:lastReplicatedBy_scene7="deepika.kawatra@destpet.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/destpet/settings/wcm/templates/xf-web"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Popup"
+        jcr:uuid="349c6667-0c3d-4342-8083-6caf7cb363a7"
+        sling:resourceType="destpet/components/structure/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="destpet/components/content/container"
+            layout="responsiveGrid">
+            <popupform
+                jcr:created="{Date}2024-05-22T14:50:17.252Z"
+                jcr:createdBy="deepika.kawatra@destpet.com"
+                jcr:lastModified="{Date}2024-06-05T03:54:53.838Z"
+                jcr:lastModifiedBy="deepika.kawatra@destpet.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="destpet/components/content/popupform"
+                centerId="501"
+                formId="100501"
+                id="promotions"
+                recaptachaSiteKey="6Ldw9KooAAAAAOGJIcArfQ-_bQaokCJYkwqBN43r"
+                type="Grooming">
+                <richtext
+                    jcr:lastModified="{Date}2024-05-22T14:51:14.604Z"
+                    jcr:lastModifiedBy="deepika.kawatra@destpet.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="destpet/components/content/richtext"
+                    text="&lt;p>HAVE QUESTIONS ABOUT?&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <richtext2
+                    jcr:lastModified="{Date}2024-05-22T14:51:54.400Z"
+                    jcr:lastModifiedBy="deepika.kawatra@destpet.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="destpet/components/content/richtext"
+                    text="&lt;p>Click to contact us, or enter your&lt;/p>&#xd;&#xa;&lt;p>info and we will get back to you!&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <button
+                    jcr:lastModified="{Date}2024-05-22T14:53:45.256Z"
+                    jcr:lastModifiedBy="deepika.kawatra@destpet.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Contact Us"
+                    sling:resourceType="destpet/components/content/button"
+                    id="Contact Us"
+                    link="https://qrco.de/bcwYBB"
+                    linkTarget="_blank"/>
+                <button1
+                    jcr:lastModified="{Date}2024-05-22T14:53:31.660Z"
+                    jcr:lastModifiedBy="deepika.kawatra@destpet.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Book an Appointment"
+                    sling:resourceType="destpet/components/content/button"
+                    id="Book an Appointment"
+                    link="https://portal.yourgipet.com/"
+                    linkTarget="_blank"/>
+            </popupform>
+        </root>
+    </jcr:content>
+</jcr:root>

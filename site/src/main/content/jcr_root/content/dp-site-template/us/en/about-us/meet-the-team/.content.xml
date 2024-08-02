@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-18T06:11:37.492+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/dp-site-template/settings/wcm/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Meet the Team"
+        sling:resourceType="destpet/components/structure/page"
+        clientlibsTheme="theme-brown-dog-lodge"
+        disablePopup="false"
+        favIconClientLibPath="/etc.clientlibs/destpet/clientlibs/clientlib-favicon/actionpackcenter/resources"
+        hidePopupMobile="false"
+        megamenuView="false"
+        secondaryLink="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="destpet/components/content/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="destpet/components/content/container"
+                layout="responsiveGrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

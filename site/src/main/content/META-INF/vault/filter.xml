@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dp-site-template" mode="merge"/>
+    <filter root="/content/dp-site-template" mode="merge"/>
+    <filter root="/content/dam/dp-site-template" mode="merge"/>
+    <filter root="/content/experience-fragments/dp-site-template" mode="merge"/>
+</workspaceFilter>

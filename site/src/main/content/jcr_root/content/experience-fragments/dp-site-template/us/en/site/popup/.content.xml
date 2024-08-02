@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2022-12-15T16:25:45.571Z"
+        cq:lastModifiedBy="mukeshkumar.k@destpet.com"
+        cq:lastReplicated="{Date}2024-06-24T11:35:21.117Z"
+        cq:lastReplicated_publish="{Date}2024-06-24T11:35:21.117Z"
+        cq:lastReplicatedBy="deepika.kawatra@destpet.com"
+        cq:lastReplicatedBy_publish="deepika.kawatra@destpet.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[]"
+        cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Popup"
+        jcr:uuid="803110f3-770c-43df-9a66-2cf842bddf6b"
+        sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
+    <master/>
+</jcr:root>

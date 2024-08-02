@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2024-07-18T06:10:53.162+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/dp-site-template/settings/wcm/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Plan Details"
+        sling:resourceType="destpet/components/structure/page"
+        clientlibsTheme="theme-brown-dog-lodge"
+        disablePopup="false"
+        favIconClientLibPath="/etc.clientlibs/clientlib-favicon/dp-site-template/resources"
+        hidePopupMobile="false"
+        megamenuView="false"
+        ogTags="false"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+        schemaType="noSchema"
+        secondaryLink="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="destpet/components/content/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="destpet/components/content/container"
+                layout="responsiveGrid">
+                <bestlife
+                    jcr:lastModified="{Date}2024-06-03T14:31:09.734Z"
+                    jcr:lastModifiedBy="rahul.pippiri@destpet.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="destpet/components/content/bestlife"
+                    plan1cost="99"
+                    plan1footer="Plus Pet Perks - 15% off on all flea + tick prevention and prescription medicine and more"
+                    plan1planName="Wellbeing Premium"
+                    plan2cost="69"
+                    plan2footer="Plus Pet Perks - 15% off on all flea + tick prevention and prescription medicine"
+                    plan2planName="Vet Premium"
+                    plan3cost="49"
+                    plan3footer="Plus Pet Perks - 10% off on all flea + tick prevention and prescription medicine"
+                    plan3planName="Vet Core"
+                    planCount="double"
+                    subTitle="Find Ways To Save + Give Your Pet Their Best Life"
+                    title="Explore Bestlife by Yourgi Annual Plans">
+                    <onlinesignup1
+                        jcr:lastModified="{Date}2024-06-03T10:41:59.406Z"
+                        jcr:lastModifiedBy="rahul.pippiri@destpet.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Download for free today!"
+                        sling:resourceType="destpet/components/content/button"
+                        fileReference="/content/dam/destpet/destination-pet-wood-stock/us/en/yourgi-download-button.png"
+                        link="https://qrco.de/bcwYBB"
+                        linkTarget="_blank"/>
+                    <appsignup1
+                        jcr:lastModified="{Date}2024-06-03T10:56:02.608Z"
+                        jcr:lastModifiedBy="rahul.pippiri@destpet.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sign up!"
+                        sling:resourceType="destpet/components/content/button"
+                        fileReference="/content/dam/destpet/destination-pet-wood-stock/us/en/Donwload3noborder.png"
+                        link="https://qrco.de/bcwYBB"
+                        linkTarget="_blank"/>
+                    <healthcare jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            healthavgcost="290"
+                            healthCarePlan1="plan1"
+                            healthCarePlan2="plan2"
+                            healthcostwbestlife="0"
+                            healthquantity="1"
+                            healthtitle="A dental cleaning or spay/neuter"/>
+                    </healthcare>
+                    <nutrition jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            nutricostwbestlife="0"
+                            nutriPlan1="plan1"
+                            nutriPlan2="plan2"
+                            nutriPlan3="plan3"
+                            nutriquantity="1"
+                            nutrititle="Nutrition counseling (delivered with office visits)"
+                            nutrivgcost="35"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            nutricostwbestlife="0"
+                            nutriPlan1="plan1"
+                            nutriPlan2="plan2"
+                            nutriquantity="1"
+                            nutrititle="Nutrition food"
+                            nutrivgcost="30"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            nutricostwbestlife="0"
+                            nutriquantity="2"
+                            nutrititle="test row"
+                            nutrivalueplan1="1"
+                            nutrivalueplan2="1"
+                            nutrivgcost="30"/>
+                    </nutrition>
+                    <stay jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            stayavgcost="300"
+                            staycostwbestlife="0"
+                            stayPlan1="plan1"
+                            stayPlan2="plan2"
+                            stayPlan3="plan3"
+                            stayquantity="6"
+                            staytitle="Included days of Boarding or Daycare"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            stayavgcost="70"
+                            staycostwbestlife="0"
+                            stayquantity="1"
+                            staytitle="1 Groom"
+                            stayvalueplan1="2"
+                            stayvalueplan2="2"
+                            stayvalueplan3="2"/>
+                    </stay>
+                    <perks jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            perksplan1value="20% discount"
+                            perkstitle="Savings on microchip"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            perksplan1value="15% discount"
+                            perksplan2value="15% discount"
+                            perksplan3value="10% discount"
+                            perkstitle="Savings on flea, tick, and heartworm prescriptions (in clinic)"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            perksplan1value="10% discount"
+                            perkstitle="Saving on additional grooms"/>
+                    </perks>
+                    <plan1services jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            enabled="yes"
+                            service="A dental cleaning or spay/neuter"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            enabled="yes"
+                            service="Core vaccines + Microchip"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            enabled="yes"
+                            service="6 days of boarding or daycare"/>
+                    </plan1services>
+                    <plan2services jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            plan2enabled="yes"
+                            plan2service="Dental Cleaning"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            plan2enabled="no"
+                            plan2service="Core vaccines"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            plan2enabled="yes"
+                            plan2service="Boarding or Daycare"/>
+                    </plan2services>
+                    <plan3services jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            plan3enabled="yes"
+                            plan3service="Dental Cleaning"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            plan3enabled="no"
+                            plan3service="Core Vaccines"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            plan3enabled="yes"
+                            plan3service="Boarding or Daycare"/>
+                    </plan3services>
+                </bestlife>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

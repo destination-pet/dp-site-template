@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/dp-site-template/settings/wcm/templates/page,/conf/dp-site-template/settings/wcm/templates/homepage]"
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2024-07-18T09:04:17.191+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated_scene7="{Date}2024-02-05T07:21:21.774Z"
+        cq:lastReplicatedBy_scene7="rahul.pippiri@destpet.com"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:robotsTags="noindex"
+        cq:template="/conf/dp-site-template/settings/wcm/templates/page"
+        jcr:lastModified="{Date}2024-07-18T09:04:17.179+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="destpet/components/structure/page"
+        sling:sitemapRoot="true"
+        clientlibsTheme="theme-brown-dog-lodge"
+        disablePopup="false"
+        fallbackImageReference="/content/dam/dp-site-template/us/en/general/dp-site-template-logo.png"
+        favIconClientLibPath="/etc.clientlibs/destpet/clientlibs/clientlib-favicon/actionpackcenter/resources"
+        footerXF="/content/experience-fragments/dp-site-template/us/en/footer/master"
+        headerXF="/content/experience-fragments/dp-site-template/us/en/header/master"
+        hidePopupMobile="true"
+        kontakConfigURL="https://dev-js-management.getkontak.com/api/v2/chat/snippet?param="
+        launchURL="https://assets.adobedtm.com/f31c8ae5e1aa/3edb83a81c18/launch-5201975e90f2-development.min.js"
+        megamenuView="false"
+        ogImage="/content/dam/dp-site-template/us/en/general/146DGH-logo-full.png"
+        ogSiteName="My Site"
+        ogTags="true"
+        ogType="Website"
+        orgSchema="\{&#xd;&#xa;&quot;@context&quot;: &quot;https://schema.org&quot;,&#xd;&#xa;&quot;@type&quot;: &quot;Organization&quot;,&#xd;&#xa;&quot;url&quot;: &quot;https://dp-site-template.com/&quot;,&#xd;&#xa;&quot;name&quot;: &quot;My Site&quot;,&#xd;&#xa;&quot;alternateName&quot;: &quot;My Site&quot;,&#xd;&#xa;&quot;logo&quot;: &quot;https://images.destpet.com/is/image/destpet/146DGH-logo-full?ts=1707419064072&amp;$Logo$&amp;dpr=off&quot;,&#xd;&#xa;&quot;address&quot;: &quot;3608 N. Southport Ave, Chicago, IL 60613&quot;,&#xd;&#xa;&quot;email&quot;: &quot;info@dp-site-template.com&quot;,&#xd;&#xa;&quot;telephone&quot;: &quot;(773) 839-5313&quot;,&#xd;&#xa;&quot;description&quot;: &quot;At My Site, we love people who are as obsessed with dogs as we are! That's why we cater to the pet parents who cherish their dogs as much as their dogs adore them. As a multi-service facility dedicated to treating your pooch like the family member they are, we offer boarding, daycare, and grooming for dogs in the Chicago and Lakeview areas.&quot;,&#xd;&#xa;&quot;sameAs&quot;: [&#xd;&#xa;&quot;https://www.instagram.com/dp-site-template/?hl=en&quot;,&#xd;&#xa;&quot;https://www.facebook.com/My Site/&quot;&#xd;&#xa;]&#xd;&#xa;}"
+        popupXF="/content/experience-fragments/yourgi/us/en/popup/popup/master"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+        schemaType="noSchema"
+        secondaryLink="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="destpet/components/content/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="destpet/components/content/container"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2024-07-18T09:04:17.179+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="true"/>
+    </jcr:content>
+    <home/>
+    <services/>
+    <bestlife/>
+    <pricing/>
+    <promotions/>
+    <about-us/>
+    <errors/>
+</jcr:root>

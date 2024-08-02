@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-08-12T08:07:29.368Z"
+        cq:lastModifiedBy="sowmya.pinjala@tadigital.com"
+        cq:lastReplicated="{Date}2022-12-07T20:31:31.368Z"
+        cq:lastReplicated_publish="{Date}2022-12-07T20:31:31.368Z"
+        cq:lastReplicated_scene7="{Date}2022-08-12T08:24:56.322Z"
+        cq:lastReplicatedBy="Angela.Branca@destpet.com"
+        cq:lastReplicatedBy_publish="Angela.Branca@destpet.com"
+        cq:lastReplicatedBy_scene7="sowmya.pinjala@tadigital.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:tags="[]"
+        cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        jcr:uuid="db0a726f-8373-46df-933f-854bd18e4a1d"
+        sling:configRef="/conf/destpet"
+        sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
+    <master/>
+    <footer-test/>
+</jcr:root>
