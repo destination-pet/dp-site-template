@@ -20,10 +20,9 @@ This is the site template for Destination Pet websites.
 ## Update template scripts
 
 * Replace the below folders with the updated contents
-1. /conf/dp-site-template
-2. /content/dam/dp-site-template
-3. /content/dp-site-template
-4. /content/experience-fragments/dp-site-template
+1. /content/dam/dp-site-template
+2. /content/dp-site-template
+3. /content/experience-fragments/dp-site-template
 
 Note: DO NOT modify anything except only the above folders.
 
