@@ -21,6 +21,8 @@
         clientlibsTheme="theme-dp-site-template"
         disablePopup="false"
         favIconClientLibPath="/etc.clientlibs/destpet/clientlibs/clientlib-favicon/dp-site-template/resources"
+        footerXF="/content/experience-fragments/dp-site-template/us/en/site/footer/master"
+        headerXF="/content/experience-fragments/dp-site-template/us/en/site/header/master"
         hidePopupMobile="true"
         megamenuView="false"
         ogTags="false"
